@@ -9,7 +9,8 @@ the key type and value type are both 'void*' which can be any
 type you want, but be careful, the user is responsible for 
 allocating or releasing the memery of the key or the value.
 
-Example:	
+Example:
+
 //key compare function
 int keyCompareFunc(void* pKey1, void* pKey2)
 {
