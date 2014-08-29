@@ -20,6 +20,7 @@ int keyCompareFunc(void* pKey1, void* pKey2)
 
 void test()
 {
+	//create a tree
 	AvlTree* pTree = AvlTree_create(keyCompareFunc);
 
 	//insert items
