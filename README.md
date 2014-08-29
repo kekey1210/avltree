@@ -13,9 +13,9 @@ Example:
 //key compare function
 int keyCompareFunc(void* pKey1, void* pKey2)
 {
-	if ( (int)pKey1 < (int)pKey2 )return -1;
-	if ( (int)pKey1 > (int)pKey2 )return 1;
-	return 0;
+    if ( (int)pKey1 < (int)pKey2 )return -1;
+    if ( (int)pKey1 > (int)pKey2 )return 1;
+        return 0;
 }
 
 void test()
